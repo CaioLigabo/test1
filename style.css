@@ -3717,12 +3717,13 @@ body{
   z-index: 1;
 }
 .about-image {
+	position: relative;
     background-image: url(img/about1.webp);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-	width: 650px; /* Adjust the size of your picture frame */
-	height: 650px; /* Adjust the size of your picture frame */
+	width: 550px; /* Adjust the size of your picture frame */
+	height: 550px; /* Adjust the size of your picture frame */
 	border-radius: 50%;
 	overflow: hidden;
 	box-shadow: 0 0 10px rgba(255, 0, 0, 0.582); /* Optional: Add a shadow effect */
@@ -3988,6 +3989,7 @@ body{
 }
 /* End Our Mission CSS */
 .mission-image {
+	position: relative;
 	background-image: url(img/about3.webp);
     background-position: center center;
     background-size: cover;
