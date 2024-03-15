@@ -1353,7 +1353,8 @@ pre code {
     .col-lg-3 {
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
-        max-width: 25%
+        max-width: 25%;
+    
     }
     .col-lg-4 {
         -ms-flex: 0 0 33.333333%;
@@ -1368,7 +1369,8 @@ pre code {
     .col-lg-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
-        max-width: 50%
+        max-width: 50%;
+        text-align: center;
     }
     .col-lg-7 {
         -ms-flex: 0 0 58.333333%;
@@ -7283,7 +7285,12 @@ a.bg-dark:hover {
 }
 
 .p-0 {
-    padding: 0!important
+    padding: 0!important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
 }
 
 .pt-0,

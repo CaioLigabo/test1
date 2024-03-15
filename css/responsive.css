@@ -318,6 +318,7 @@ Version:	1.1
 }
 .our-mission-image {
 	height: 400px;
+
 }
 .doctor-details-area .doctor-details-right {
 	padding-left: 0;
@@ -890,6 +891,15 @@ Version:	1.1
 }
 .our-mission-image {
 	height: 300px;
+	width: 392px;
+}
+.mission-image{
+	height: 300px;
+	width: 392px;
+}
+.about-image{
+	height: 300px;
+	width: 392px;
 }
 .contact-us #myMap {
 	height: 300px;
@@ -1030,6 +1040,9 @@ Version:	1.1
 
 .section{
 	padding:50px 0px;
+	text-align: center;
+	padding-right: 33px;
+	align-items: center;
 }
 .section-title {
 	margin-bottom: 30px;
